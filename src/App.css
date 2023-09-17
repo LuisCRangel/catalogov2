@@ -85,10 +85,11 @@ hr {
 
 .navBar{ 
   display: flex;
+  position: fixed;
+  top: 0;
   background-color: rgba(18, 17, 17, 0.918);
   justify-content: center;
   align-items: center;
-  bottom: 95%;
   width: 100%;
   padding: 0 15px;
   color: white;
@@ -96,7 +97,7 @@ hr {
 .name__service{
   margin-bottom: 0;
   text-align: center;
-  padding: 2px;
+  padding: 4px;
 }
 .combos{
   display: flex;
@@ -140,6 +141,9 @@ hr {
   width: 300px;
   padding: 5px;
 }
+.title{
+  margin-top: 90px;
+}
 
 @media (max-width:500px){  
   .app{
@@ -148,8 +152,8 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
   }
-  .navBar{
-    bottom: 93%;
+  .navBar h2{
+    font-size: 20px;
   }
   .footer{
     background-color: rgb(46, 3, 87);

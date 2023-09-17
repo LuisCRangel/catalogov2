@@ -24,7 +24,7 @@ const [catalogue, setCatalogue] = useState()
 
     { id: 7, name: 'Crunchyroll', price: "8.000", avatar: 'https://img.freepik.com/free-icon/user_318-219670.jpg', src: 'https://yt3.googleusercontent.com/ytc/AGIKgqOQYwc_F7oRllUnUATJpu47bOLy7K2n8M-AHRy_Zw=s900-c-k-c0x00ffffff-no-rj' },
 
-    { id: 8, name: 'Funimation', price: "9.000", avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNbSU_JOKegoblQ1eSpxjCbfZ8myAlGUEC6xMb6YvykE8CUFgKco7AzwmLefjhmqx_Fc&usqp=CAU', src: 'https://blog.funimation.com/wp-content/uploads/2021/03/fuojdP4H_400x400.jpeg' },
+    { id: 8, name: 'Funimation', price: "9.000", avatar: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNbSU_JOKegoblQ1eSpxjCbfZ8myAlGUEC6xMb6YvykE8CUFgKco7AzwmLefjhmqx_Fc&usqp=CAU', src: 'https://www.theoasg.com/wp-content/uploads/2016/01/FUni.png' },
 
     { id: 9, name: 'Plex', price: "7.000", avatar: 'https://img.freepik.com/iconos-gratis/hombre_318-860796.jpg', src: 'https://techcrunch.com/wp-content/uploads/2015/07/plex-logo.jpg?w=730&crop=1' },
 
@@ -97,7 +97,7 @@ useEffect(() => {
   return (
     <div className='app'>      
      <Navbar/>
-<h2 className='combo__title'>Cuentas por Pantalla</h2>
+<h2 className='combo__title title'>Cuentas por Pantalla</h2>
      <div className='app__cards'>
 
 {
