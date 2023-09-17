@@ -94,6 +94,9 @@ hr {
   padding: 0 15px;
   color: white;
 }
+.navBar h2{
+  font-size: 20px;
+}
 .name__service{
   margin-bottom: 0;
   text-align: center;
@@ -165,5 +168,8 @@ hr {
   }
   .bxl-whatsapp{
     font-size: 15px;
+  }
+  .app__combos{
+    width: 380px;
   }
 }
